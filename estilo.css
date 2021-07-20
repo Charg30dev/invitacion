@@ -142,7 +142,7 @@ p{
     
     html{
     
-        background: url(images/fondo.jpg) no-repeat center center fixed;
+        background: url(images/fondomov.jpg) no-repeat center center fixed;
         background-size: cover;
         -moz-background-size: cover;
         -webkit-background-size: cover;
@@ -165,14 +165,14 @@ p{
 
     html{
     
-        background: url(images/fondo.jpg) no-repeat center center fixed;
+        background: url(images/fondomov.jpg) no-repeat center center fixed;
         background-size: cover;
         -moz-background-size: cover;
         -webkit-background-size: cover;
         -o-background-size: cover;
         }
 
-        
+
     nav{
         display: grid;
     }
