@@ -152,6 +152,17 @@ p{
 
 
 @media (max-width: 850px){
+    
+    html{
+        background: url(images/fondo4.jpg) no-repeat center center fixed;
+        background-size: cover;
+
+    }
+
+    nav{
+        display: grid;
+    }
+    
     .left{
         position: fixed;
         bottom: 0vmax;
@@ -177,6 +188,13 @@ p{
 
 @media (max-width: 450px){
 
+
+    html{
+        background: url(images/fondo4.jpg) no-repeat center center fixed;
+        background-size: cover;
+
+    }
+
     nav{
         display: grid;
     }
@@ -201,7 +219,7 @@ p{
         background-color: rgba(0,0,0,0.6);
         }
     
-    .cortijo iframe{
+    .maps{
         width: 200px;
         height: 200px;
         align-items: center;
@@ -229,6 +247,11 @@ p{
         bottom: 0vmax;
         margin-right: 100%;
         opacity: 0.2;
+    }
+
+    .count{
+        text-align: center;
+        font-size: 1.5rem;
     }
 
 }
