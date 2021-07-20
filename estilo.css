@@ -15,7 +15,7 @@
 
 html{
     
-background: url(images/fondo4.jpg) no-repeat center center fixed;
+background: url(images/fondo2.jpg) no-repeat center center fixed;
 background-size: cover;
 -moz-background-size: cover;
 -webkit-background-size: cover;
@@ -96,19 +96,6 @@ p{
     text-align: left;
 }
 
-.left{
-    position: fixed;
-    bottom: 0%;
-    left: 0%;
-    opacity: 0.2;
-}
-
-.right{
-    position: fixed;
-    bottom: 0%;
-    right: 15%;
-    opacity: 0.2;
-}
 
 .main p{
     color: black;
@@ -158,22 +145,6 @@ p{
         display: grid;
     }
     
-    .left{
-        position: fixed;
-        bottom: 0vmax;
-        left: 0;
-        opacity: 0.2;
-        width: 8%;
-        
-    }
-
-    .right{
-        position: fixed;
-        bottom: 0vmax;
-        right: 12%;
-        opacity: 0.2;
-        width: 8%;
-    }
 
 }
 
@@ -223,20 +194,6 @@ p{
     
     }
 
-    .left{
-        position: fixed;
-        bottom: 0vmax;
-        left: 10%;
-        opacity: 0.2;
-        width: 30%;
-    }
-
-    .right{
-        position: fixed;
-        bottom: 0vmax;
-        margin-right: 100%;
-        opacity: 0.2;
-    }
 
     .phone{
         font-size: 1rem;
