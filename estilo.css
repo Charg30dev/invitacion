@@ -190,7 +190,7 @@ p{
 
 
     html{
-        background: url(images/fondo4.jpg) no-repeat center center fixed;
+        background: url(images/fondoM.jpg) no-repeat center center fixed;
         background-size: cover;
 
     }
@@ -249,9 +249,13 @@ p{
         opacity: 0.2;
     }
 
+    .phone{
+        font-size: 1rem;
+    }
+
     .count{
         text-align: center;
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 
 }
