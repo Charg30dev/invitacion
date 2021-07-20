@@ -15,8 +15,11 @@
 
 html{
     
-background: url(images/fondo.jpg) center;
+background: url(images/fondo.jpg) no-repeat center center fixed;
 background-size: cover;
+-moz-background-size: cover;
+-webkit-background-size: cover;
+-o-background-size: cover;
 }
 
 body{
@@ -137,7 +140,15 @@ p{
 
 @media (max-width: 850px){
     
- 
+    html{
+    
+        background: url(images/fondo.jpg) no-repeat center center fixed;
+        background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        }
+
     nav{
         display: grid;
     }
@@ -152,6 +163,16 @@ p{
 @media (max-width: 450px){
 
 
+    html{
+    
+        background: url(images/fondo.jpg) no-repeat center center fixed;
+        background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        }
+
+        
     nav{
         display: grid;
     }
