@@ -1,0 +1,234 @@
+@charset "UTF-8";
+
+/*FUENTES*/
+@font-face {
+    font-family: "Mary Helen JF";
+    src: url(fonts/maryhelenjf.ttf);
+}
+
+@font-face {
+    font-family: "Gruppo";
+    src: url(fonts/Gruppo-Regular.ttf);
+}
+
+/* ELEMENTOS PRINCIPALES*/
+
+html{
+    
+background: url(images/fondo4.jpg) no-repeat center center fixed;
+background-size: cover;
+-moz-background-size: cover;
+-webkit-background-size: cover;
+-o-background-size: cover;
+}
+
+body{
+    text-align: center;
+    font-size: 1.5em;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+header{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    margin-top: 10%;
+
+}
+
+nav{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+    font-size: 2rem;
+    font-family: "Mary Helen JF";
+    font-weight: bold;
+    
+}
+
+/* ELEMENTOS INDIVIDUALES*/
+
+a{
+    text-decoration: none;
+    padding: .25rem;
+    font-size: 2rem;
+    color: black;
+    background-color: transparent;
+    border-bottom: .25rem solid transparent;
+}
+
+a:hover{
+    border-bottom: 1px solid;
+    color: #008FA2;
+    font-weight: bold;
+}
+
+
+h1, h2, h3, h4, h5{
+    margin-top: 5%;
+    font-family: "Gruppo";
+}
+
+p{
+    font-family: Gruppo;
+    font-size: larger;
+    color: black;
+    
+}
+
+/* CLASES */
+
+.mes{
+    margin-top: 0;
+    margin-left: 4em;
+}
+
+
+.nav-masthead .nav-link + .nav-link {
+    margin-left: 1rem;
+  }
+
+.puntosC{
+    text-align: left;
+}
+
+.left{
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
+    opacity: 0.2;
+}
+
+.right{
+    position: fixed;
+    bottom: 0%;
+    right: 15%;
+    opacity: 0.2;
+}
+
+.main p{
+    color: black;
+    font-size: larger;
+}
+
+.rrss p{
+    color: black;
+    font-size: larger;
+}
+
+.contact p{
+    color: black;
+    font-size: larger;
+}
+
+.cortijo{
+    background-image: url(images/cortijo.jpeg);
+    padding: 250px 50px;
+    text-align: center;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    }
+
+.cortijo::before{
+    content:'';
+    position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    background-color: rgba(0,0,0,0.6);
+    }
+
+.cortijo ,h1,h3,p {
+    color: #fff;
+    position: relative
+}        
+
+
+@media (max-width: 850px){
+    .left{
+        position: fixed;
+        bottom: 0vmax;
+        left: 0;
+        opacity: 0.2;
+        width: 8%;
+        
+    }
+
+    .right{
+        position: fixed;
+        bottom: 0vmax;
+        right: 12%;
+        opacity: 0.2;
+        width: 8%;
+    }
+
+}
+
+
+
+
+
+@media (max-width: 450px){
+
+    nav{
+        display: grid;
+    }
+  
+    .cortijo{
+        background-image: url(images/cortijo.jpeg);
+        padding: 200px 50px;
+        text-align: center;
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        }
+    
+    .cortijo::before{
+        content:'';
+        position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        background-color: rgba(0,0,0,0.6);
+        }
+    
+    .cortijo iframe{
+        width: 200px;
+        height: 200px;
+        align-items: center;
+    }
+    
+    .catering img {
+        width: 300px;
+    }
+
+    .sites img{
+        width: 300px;
+    
+    }
+
+    .left{
+        position: fixed;
+        bottom: 0vmax;
+        left: 10%;
+        opacity: 0.2;
+        width: 30%;
+    }
+
+    .right{
+        position: fixed;
+        bottom: 0vmax;
+        margin-right: 100%;
+        opacity: 0.2;
+    }
+
+}
