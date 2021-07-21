@@ -139,7 +139,7 @@ p{
 @media only screen and (max-width: 850px){
     
     body{
-        background: url(images/fondomov.jpg) no-repeat center center fixed;
+        background: url(images/fondomobile.jpg) no-repeat center center fixed;
         background-size: cover;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -157,7 +157,7 @@ p{
 @media only screen and (max-device-width: 850px){
     
     body{
-        background: url(images/fondomov.jpg) no-repeat center center fixed;
+        background: url(images/fondomobile.jpg) no-repeat center center fixed;
         background-size: cover;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -175,7 +175,7 @@ p{
 @media only screen and (max-width: 450px){
 
     body{
-        background: url(images/fondomov.jpg) no-repeat center center fixed;
+        background: url(images/fondomobile.jpg) no-repeat center center fixed;
         background-size: cover;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -231,7 +231,7 @@ p{
 @media only screen and (max-device-width: 450px){
 
     body{
-        background: url(images/fondomov.jpg) no-repeat center center fixed;
+        background: url(images/fondomobile.jpg) no-repeat center center fixed;
         background-size: cover;
         -webkit-background-size: cover;
         -moz-background-size: cover;
