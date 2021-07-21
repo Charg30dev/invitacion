@@ -16,11 +16,7 @@
 
 
 body{
-    background: url(images/fondo.jpg) no-repeat center center fixed;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background-color: #F9E79F;
     text-align: center;
     font-size: 1.5em;
     margin-left: 10%;
@@ -138,13 +134,7 @@ p{
 
 @media only screen and (max-width: 850px){
     
-    body{
-        background: url(images/fondomobile.jpg) no-repeat center center fixed;
-        background-size: cover;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-    }
+    
 
     nav{
         display: grid;
@@ -156,13 +146,7 @@ p{
 
 @media only screen and (max-device-width: 850px){
     
-    body{
-        background: url(images/fondomobile.jpg) no-repeat center center fixed;
-        background-size: cover;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-    }
+    
     
     nav{
         display: grid;
@@ -174,14 +158,6 @@ p{
 
 @media only screen and (max-width: 450px){
 
-    body{
-        background: url(images/fondomobile.jpg) no-repeat center center fixed;
-        background-size: cover;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-    }
-    
     nav{
         display: grid;
     }
@@ -230,13 +206,6 @@ p{
 
 @media only screen and (max-device-width: 450px){
 
-    body{
-        background: url(images/fondomobile.jpg) no-repeat center center fixed;
-        background-size: cover;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-    }
     
     nav{
         display: grid;
