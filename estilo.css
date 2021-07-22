@@ -126,6 +126,7 @@ p{
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
+    border-radius: 20px;
     }
 
 .cortijo::before{
@@ -136,6 +137,7 @@ p{
         left: 0;
         right: 0;
     background-color: rgba(0,0,0,0.6);
+    border-radius: 20px;
     }
 
 .cortijo ,h1,h3,p {
@@ -145,6 +147,15 @@ p{
 
 .maps{
     border-radius: 20px;
+}
+
+.catering img {
+    border-radius: 10px;
+}
+
+.sites img{
+    border-radius: 10px;
+
 }
 
 
